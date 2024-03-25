@@ -1,8 +1,0 @@
-#surefire_0
-#Mon Mar 25 21:31:13 WIB 2024
-user.dir=/Users/laurachen/eclipse-workspace/may2022
-env=stage
-style.color=always
-basedir=/Users/laurachen/eclipse-workspace/may2022
-suiteXmlFile=api.xml
-localRepository=/Users/laurachen/.m2/repository

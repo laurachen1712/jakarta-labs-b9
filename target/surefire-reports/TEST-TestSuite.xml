@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.892" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="22.168" tests="4" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.10+7"/>
-    <property name="sun.boot.library.path" value="/Users/laurachen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.10.v20240120-1143/jre/lib"/>
+    <property name="java.vm.version" value="21.0.2"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/laurachen/eclipse-workspace/may2022"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -16,7 +15,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/laurachen/eclipse-workspace/may2022"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="java.runtime.version" value="21.0.2"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/m3/_f2lq83x517ffdqw5jqjx3cr0000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
@@ -24,46 +23,47 @@
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="suiteXmlFile" value="api.xml"/>
-    <property name="classworlds.conf" value="/Users/laurachen/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2987309357448038782.tmp"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.9.6/libexec/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/laurachen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.9.6/libexec/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="65.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="12.7.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.9.6/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/laurachen"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="21"/>
     <property name="user.name" value="laurachen"/>
-    <property name="java.class.path" value="/Users/laurachen/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.9.500.20231113-2345/jars/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.9.6/libexec/boot/plexus-classworlds-2.7.0.jar"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always clean test -DsuiteXmlFile=api.xml -X"/>
-    <property name="java.home" value="/Users/laurachen/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.10.v20240120-1143/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=api.xml -X"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="17.0.10"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="21.0.2"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="/Users/laurachen/eclipse-workspace/may2022/EMBEDDED"/>
-    <property name="style.color" value="always"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.9.6/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2024-01-16"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
-    <property name="m2e.build.project.data.socket.port" value="56235"/>
+    <property name="java.vendor.version" value="Homebrew"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="configAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="6.027">
+  <testcase name="configAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="0.973">
     <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
 	at qaautomation.may2022.APITestAfterRefactor.configAPI(APITestAfterRefactor.java:28)
 </failure>
@@ -102,7 +102,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="dashboardAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="1.01"/>
-  <testcase name="fakerTest" classname="qaautomation.may2022.APITestAfterRefactor" time="0.146"/>
-  <testcase name="userAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="6.002"/>
+  <testcase name="dashboardAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="1.093"/>
+  <testcase name="fakerTest" classname="qaautomation.may2022.APITestAfterRefactor" time="0.127"/>
+  <testcase name="userAPI" classname="qaautomation.may2022.APITestAfterRefactor" time="1.048"/>
 </testsuite>

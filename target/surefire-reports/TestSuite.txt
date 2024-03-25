@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.892 sec <<< FAILURE! - in TestSuite
-configAPI(qaautomation.may2022.APITestAfterRefactor)  Time elapsed: 6.027 sec  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.168 sec <<< FAILURE! - in TestSuite
+configAPI(qaautomation.may2022.APITestAfterRefactor)  Time elapsed: 0.973 sec  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [404]
 	at qaautomation.may2022.APITestAfterRefactor.configAPI(APITestAfterRefactor.java:28)
 
